@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script>
+        if((/(android|iphone|ipad|PlayBook|BB10)/i).test(window.navigator.userAgent)){
+            window.location.href = '../mh.html';
+        }
+</script>
+<script type="text/javascript" src="../tishi.js"></script>
+<title>JaBi扎比-美化、多开、神器、录屏、下载</title>
+<style type="text/css">
+
+@media print{
+BODY {display:none}
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	width:100%;
+	height:auto;
+	background:#fafafa;
+	}
+
+ul li{
+	margin:0xp;
+	padding:0px;
+	}
+
+.nav{
+	width:100%;
+	height:50px;
+	background-color:rgba(0,0,0,0.80);
+	position:fixed;
+	margin-top:0px;
+	padding:0px;
+	z-index:1;
+	}
+	
+.nav_in{
+	width:1000px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;}
+
+.logo_jabi{
+	margin-top:12px;
+	margin-left:50px;
+	float:left;
+	height:26px;
+	}
+	
+.menu{
+	display:block;
+	height:50px;
+	margin:0px;
+	float:right;
+	}
+	
+.list{
+	color:rgba(255,255,255,1.00);
+	list-style:none;
+	display:block;
+	line-height:45px;
+	font-size:20px;
+	padding:0px;
+	float:left;
+	margin-left:10px;
+	margin-right:40px;
+	}
+	
+.list_a{
+	display:block;
+	text-decoration:none;
+	color:rgba(255,255,255,1.00);
+	}
+	
+#select{
+	color:#ffe011;
+	border-bottom:solid 5px  #ffe011 ;
+	margin-bottom:10px;
+	}
+
+
+.body{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	overflow:auto;
+	padding-bottom:50px;
+	}
+
+.tip{
+	text-align:left;
+	display:block;
+	font-size:16px;
+	margin-top:0px;
+	margin-left:50px;
+	margin-right:50px;
+	padding-top:80px;
+	}
+	
+.thb{
+	text-align:left;
+	display:block;
+	font-size:16px;
+	margin-top:20px;
+	margin-left:50px;
+	margin-right:50px;
+	color:#5A5A5A;}
+	
+.all{
+	display:block;
+	margin-top:40px;
+	list-style:none;
+	background:#fff;
+	border-radius:20px;
+	padding-bottom:20px;
+	width:450px;
+	height:auto;
+	float:left;
+	margin-left:25px;
+	}
+	
+.icon{
+	width:100px;
+	height:100px;
+	margin-right:0px;
+	display:block;
+	margin-left:0px;
+	background-image:url(wx6.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	float:left;
+	}
+	
+.box{
+	height:auto;
+	display:block;
+	padding-left:110px;
+	}
+	
+.name{
+	font-size:20px;
+	color:#000;
+	margin-left:20px;
+	padding-top:30px;
+	position:relative;
+	display:block;
+	font-weight:bold;
+	margin-right:20px;
+	}
+	
+	
+.about{
+	font-size:16px;
+	color:#393939;
+	margin-left:20px;
+	display:block;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-right:20px;
+	}
+	
+.link{
+	font-size:16px;
+	color:#393939;
+	margin-left:20px;
+	display:block;
+	margin-top:0px;
+	margin-bottom:30px;
+	margin-right:20px;
+	}
+	
+.btn{
+	color:#5A5A5A;
+	background-color:rgba(255,255,255,0.10);
+	display:block;
+	width:140px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	border-radius:100px;
+	font-size:16px;
+	text-decoration:none;
+	margin-top:0px;
+	margin-left:10px;
+	margin-right:10px;
+	border:1px solid #5A5A5A;
+	float:left;
+	}
+	
+.btn:hover{
+	color:#fff;
+	background-color:#2c2c2c;
+	display:block;
+	width:140px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	border-radius:100px;
+	font-size:16px;
+	text-decoration:none;
+	margin-top:0px;
+	margin-left:10px;
+	margin-right:10px;
+	border:1px solid #2C2C2C;
+	float:left;
+	}
+	
+.btn_all{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	overflow:hidden;
+	width:325px;
+	}
+	
+	
+#bg5{
+	background-image:url(wx5.png);}	
+	
+#bg4{
+	background-image:url(wx4.png);}	
+	
+#bg3{
+	background-image:url(wx3.png);}
+	
+#bg2{
+	background-image:url(wx2.png);}
+	
+#bgqq1{
+	background-image:url(qq1.png);}	
+	
+#bg6{
+	background-image:url(wx7.png);}
+
+.bottom{
+	width:100%;
+	display:block;
+	text-align:center;
+	background:rgba(0,0,0,1.00);
+	height:50px;
+	margin-top:10px;
+	color:#FFFFFF;
+	line-height:50px;
+	font-size:16px;
+	}
+
+</style>
+</head>
+
+<body oncontextmenu="return false" onselectstart="return false">
+
+
+	<div class="nav" >
+    	<span class="nav_in">
+    	<img src="../jabi.png" class="logo_jabi">
+        <ul class="menu">
+        	<li class="list"><a class="list_a" href="index.html">首页</a></li>
+            <li class="list"><a class="list_a" href="mh.html" id="select" >美化</a></li>
+            <li class="list"><a class="list_a" href="d.html">应用</a></li>
+            <li class="list"><a class="list_a" href="wf.html">规则</a></li>
+            <li class="list"><a class="list_a" href="jz.html">捐赠</a></li>
+        </ul>
+        </span>
+    </div>
+    
+    <div class="body">
+    
+    <a class="tip">安装教程：<br>1、Win用户使用“PP助手”安装。<br>2、Mac用户使用“同步助手”安装。<br><br>注意：非越狱用户安装后，打开应用需要输入Apple ID和密码，请提前关注公众号“jabizb”，回复“帐号”来获取后再安装。<br><br>如果遇到闪退的问题，先用我的账号到app store下载任意一个应用运行一下，再进入微信即可。<br><br>不支持10.3.x系统。</a>
+    <a class="thb" href="http://mp.weixin.qq.com/s/E_nCob08s2B8_ABhkBJMoQ">点击查看主题替换包使用教程（不支持iOS10.3.x系统）</a>
+     
+     <div class="all">
+		<span class="icon" id="bg6"></span>
+        <span class="box">
+        	<a class="name">轻蓝-微信美化第七弹</a><br>
+            <a class="link" target="_black" href="http://mp.weixin.qq.com/s/3q2r6QRTLCA1PADu-jAjFQ">主题效果预览</a>
+        </span>
+         <div class="btn_all">
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1gfgOmv5">下载ipa直装包</a> 
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1o7VMySi">下载主题替换包</a>
+        </div>    
+    </div>
+     
+     <div class="all">
+		<span class="icon"></span>
+        <span class="box">
+        	<a class="name">线黄-微信美化第六弹</a><br>
+            <a class="link" target="_black" href="http://mp.weixin.qq.com/s/VzliOIZroxMreF6-yR_D9w">主题效果预览</a>
+        </span>
+        <div class="btn_all">
+        <a class="btn" target="_black" href="http://pan.baidu.com/share/link?shareid=1759763889&uk=178989203">下载ipa直装包</a> 
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1nvLVsBv">下载主题替换包</a>   
+        </div>     
+    </div>
+    
+     <div class="all">
+		<span class="icon" id="bg5"></span>
+        <span class="box">
+        	<a class="name">简绿-微信美化第五弹</a><br>
+            <a class="link" target="_black" href="http://mp.weixin.qq.com/s/iiUvHtNiPF5cA_Qgi_cogg">主题效果预览</a>
+        </span>
+        <div class="btn_all">
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1hrS8hdM">下载ipa直装包</a> 
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1jH99UHw">下载主题替换包</a>
+        </div>     
+    </div>
+    
+     <div class="all">
+		<span class="icon" id="bg4"></span>
+        <span class="box">
+        	<a class="name">扁平-微信美化第四弹</a><br>
+            <a class="link" target="_black" href="http://mp.weixin.qq.com/s/2W6-Wb0n--H_6P4-xm63Ig">主题效果预览</a>
+        </span>
+        <div class="btn_all">
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1eSMMH2M">下载ipa直装包</a> 
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1hrHf8Vi">下载主题替换包</a>   
+        </div>  
+    </div>
+    
+    <div class="all">
+		<span class="icon" id="bg3"></span>
+        <span class="box">
+        	<a class="name">简线-微信美化第三弹</a><br>
+            <a class="link" target="_black" href="http://mp.weixin.qq.com/s/kdbveBpnn1GK0DBtyyRD1g">主题效果预览</a>
+        </span>
+        <div class="btn_all">
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1qXBwLB2">下载ipa直装包</a> 
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1pL4Wpnl">下载主题替换包</a> 
+        </div>    
+    </div>
+    
+    <div class="all">
+		<span class="icon" id="bg2"></span>
+        <span class="box">
+        	<a class="name">卡通-微信美化第二弹</a><br>
+            <a class="link" target="_black" href="http://mp.weixin.qq.com/s/9mJ8I_pu4ydcBYJFiKQxCA">主题效果预览</a>
+        </span>
+        <div class="btn_all">
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1slpWsUx">下载ipa直装包</a> 
+        <a class="btn" target="_black" onClick="katong()" href="https://pan.baidu.com/s/1nvlx7Ax">下载主题替换包</a> 
+        </div>    
+    </div>
+    
+    <div class="all">
+		<span class="icon" id="bgqq1"></span>
+        <span class="box">
+        	<a class="name">纯白-QQ美化主题</a><br>
+            <a class="link" target="_black" href="http://bbs.feng.com/forum.php?mod=viewthread&tid=11198809">主题效果预览</a>
+        </span>
+        <div class="btn_all">
+        <a class="btn" target="_black" href="https://pan.baidu.com/s/1eRSCjCm">下载ipa直装包</a> 
+        <a class="btn" target="_black" onClick="qqcb()" href="https://pan.baidu.com/s/1nvQFcwD">下载主题替换包</a>
+        </div>   
+    </div>
+    
+    </div>
+    
+    <div class="bottom">@JaBi扎比（jabizb.cn）</div>
+    
+    <noscript><iframe src="mh.html"></iframe></noscript>
+ 
+</body>
+</html>
