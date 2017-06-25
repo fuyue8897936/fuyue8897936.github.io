@@ -2,12 +2,12 @@
 
 function tishi()
 {
-alert("感谢你的添加，更多规则关注公众号“jabizb”");
+alert("感谢你的添加，更多规则关注公众号“武大狼”");
 }
 
 function xunlei()
 {
-alert("迅雷证书被封，已经不能安装了。不便之处，敬请谅解！更多好玩关注微信公众号“jabizb”。");
+alert("迅雷证书被封，已经不能安装了。不便之处，敬请谅解！更多好玩关注微信公众号“武大狼”。");
 }
 
 function katong()
